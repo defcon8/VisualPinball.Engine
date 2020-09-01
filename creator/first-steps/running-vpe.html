@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Running VPE | VPE Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Running VPE | VPE Documentation ">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+  
+    <script type="text/javascript">
+    var _paq = window._paq || [];
+    _paq.push(["setCookieDomain", "*.docs.visualpinball.org"]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//count.vpdb.io/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '2']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+    </script>
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="running-vpe">Running VPE</h1>
+
+<p>Now we can get begin with some simple game play. Open Visual Pinball, create a new &quot;blank&quot; table, and save it somewhere. In Unity, go to <em>Visual Pinball -&gt; Import VPX</em> and choose the new <code>.vpx</code> file.</p>
+<p>You should now see Visual Pinball's blank table in the Editor's scene view:</p>
+<p><img src="unity-imported-table.png" alt="Imported blank table"></p>
+<p>Now, we don't see much of our table. That's because the scene view's camera doesn't really point on it. Using the right mouse button and the <code>A</code> <code>W</code> <code>S</code> <code>D</code> keys while keeping right mouse button pressed, fly somewhere you have a better view of the table.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Check Unity's documentation on <a href="https://docs.unity3d.com/Manual/SceneViewNavigation.html">Scene view navigation</a> for a more complete list of ways to move the camera around the scene.</p>
+</div>
+<p>Now that you have the camera of the scene view somewhat aligned.</p>
+<p><img src="unity-imported-table-aligned.png" alt="Scene view camera on table"></p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>A pinball table is a relatively small object, so Unity's &quot;gizmo&quot; icons marking scene objects are huge. You can make them smaller with the <a href="https://docs.unity3d.com/Manual/GizmosMenu.html">Gizmos menu</a> by using the <em>3D Icons</em> slider.</p>
+</div>
+<p>The view in the scene tab is not the camera used in game. The <em>Scene View</em> really allows you to fly anywhere, zoom in on things you're working on, switch from orthagonal view to perspective, and so on. It's where you get work done.</p>
+<p>During game play, another camera is used. It's the one already in your scene hierarchy (called <em>Main Camera</em>), and you can look through it by switching to the <a href="https://docs.unity3d.com/Manual/GameView.html">Game View</a> window.</p>
+<p>This camera can be moved <a href="https://docs.unity3d.com/Manual/PositioningGameObjects.html">using Unity's gizmos</a>, by selecting it in the hierarchy and moving and tilting it around.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>A quick way to fix the game camera is to align it with the scene view camera. To do that, select the camera in the hierarchy, then click on the <em>GameObject</em> menu and select <em>Align with view</em>.</p>
+</div>
+<p>Now, click on the play button. This will run your scene. Test that the shift keys move the flippers. Press <code>B</code> to add a new ball. If it's not already choppy, it will get after a dozen or so balls, because VPE currently doesn't destroy them.</p>
+<p>The choppiness is also due to running the game inside the editor, fetching data during gameplay, and the code not being optimized.</p>
+<p>This should all go away if you choose <em>Build and Run</em> under the <em>File</em> menu. Running it as &quot;build&quot; should give you significantly smoother gameplay.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>If you want to enter play mode more quickly, you can check the experimental play mode option described <a href="https://blogs.unity3d.com/2019/11/05/enter-play-mode-faster-in-unity-2019-3/">here</a>.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/freezy/VisualPinball.Engine/blob/master/VisualPinball.Unity/Documentation~/creator/first-steps/running-vpe.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright © 2020 VPE Team
+            
+          </span></div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

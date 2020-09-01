@@ -1,0 +1,351 @@
+{
+  "homepages": [],
+  "source_base_path": "/github/workspace/VisualPinball.Unity/Documentation~",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "CNAME",
+      "output": {
+        "resource": {
+          "relative_path": "CNAME"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "/FS9FigIKPcpLs//145HIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "creator/first-steps/explorer-vpe-root.png",
+      "output": {
+        "resource": {
+          "relative_path": "creator/first-steps/explorer-vpe-root.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "creator/first-steps/installing-vpe.md",
+      "output": {
+        ".html": {
+          "relative_path": "creator/first-steps/installing-vpe.html",
+          "hash": "xizrF8hfAjQ6wByGzjUcsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "creator/first-steps/running-vpe.md",
+      "output": {
+        ".html": {
+          "relative_path": "creator/first-steps/running-vpe.html",
+          "hash": "1GhHmvBnwhH3OxXn27YHGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "creator/first-steps/unity-create-new-project.png",
+      "output": {
+        "resource": {
+          "relative_path": "creator/first-steps/unity-create-new-project.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "creator/first-steps/unity-hdrp-default-scene.png",
+      "output": {
+        "resource": {
+          "relative_path": "creator/first-steps/unity-hdrp-default-scene.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "creator/first-steps/unity-hdrp-to-delete-assets.png",
+      "output": {
+        "resource": {
+          "relative_path": "creator/first-steps/unity-hdrp-to-delete-assets.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "creator/first-steps/unity-hdrp-to-delete.png",
+      "output": {
+        "resource": {
+          "relative_path": "creator/first-steps/unity-hdrp-to-delete.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "creator/first-steps/unity-imported-table-aligned.png",
+      "output": {
+        "resource": {
+          "relative_path": "creator/first-steps/unity-imported-table-aligned.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "creator/first-steps/unity-imported-table.png",
+      "output": {
+        "resource": {
+          "relative_path": "creator/first-steps/unity-imported-table.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "creator/first-steps/unity-package-manager.png",
+      "output": {
+        "resource": {
+          "relative_path": "creator/first-steps/unity-package-manager.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "creator/first-steps/updating-vpe.md",
+      "output": {
+        ".html": {
+          "relative_path": "creator/first-steps/updating-vpe.html",
+          "hash": "MFv0b+N4a8u0ngf83I18Pg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "creator/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "creator/toc.html",
+          "hash": "sJqsRdy7DpLKuuKxmtQqKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "creator/vpe.md",
+      "output": {
+        ".html": {
+          "relative_path": "creator/vpe.html",
+          "hash": "TfsQD/bxJgiDsJq18KQYVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "creator/vpe/comparison-vpx-vpe.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "creator/vpe/comparison-vpx-vpe.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "creator/vpe/features.md",
+      "output": {
+        ".html": {
+          "relative_path": "creator/vpe/features.html",
+          "hash": "DQZIq6AJWNRM7KEnMRAyAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "creator/vpe/jp-header.png",
+      "output": {
+        "resource": {
+          "relative_path": "creator/vpe/jp-header.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "creator/vpe/mesh-example.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "creator/vpe/mesh-example.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "creator/vpe/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "creator/vpe/overview.html",
+          "hash": "tiVtuOt4SqZdJc5tmobXpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "creator/vpe/unity-colliders.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "creator/vpe/unity-colliders.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "creator/vpe/unity-drag-points.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "creator/vpe/unity-drag-points.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "creator/vpe/unity-editor.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "creator/vpe/unity-editor.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "jOZR+vFJNKMqyyXi2g6S8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "xO8ZpDe5QaV6WyyZHsC1PQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 8,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
